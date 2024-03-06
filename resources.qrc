@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/Places-user-identity-icon.png</file>
+        <file>icons/edit-find-user.png</file>
+        <file>icons/view-calendar.png</file>
+        <file>images/logo.png</file>
+        <file>images/glowGreen.svg</file>
+        <file>images/glowBlue1.svg</file>
+        <file>images/glowBlue2.svg</file>
+        <file>images/glowRed.svg</file>
+    </qresource>
+    <qresource prefix="/qml">
+        <file>CenterView.qml</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>style.css</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/applications-system.png</file>
+        <file>icons/contact-new.png</file>
+        <file>icons/dialog-cancel.png</file>
+        <file>icons/dialog-ok.png</file>
+        <file>icons/document-edit.png</file>
+        <file>icons/server-database.png</file>
+        <file>icons/help-about.png</file>
+        <file>icons/system-shutdown.png</file>
+        <file>icons/user-identity.png</file>
+        <file>icons/window-close.png</file>
+        <file>icons/view-task-add.png</file>
+        <file>icons/digikam.png</file>
+        <file>icons/folder-orange.png</file>
+        <file>icons/view-income-categories.png</file>
+        <file>icons/edit-clear-locationbar-rtl.png</file>
+        <file>icons/edit-find.png</file>
+        <file>icons/edit-image-face-detect.png</file>
+        <file>icons/system-log-out.png</file>
+        <file>icons/list-remove.png</file>
+        <file>icons/view-pim-contacts.png</file>
+        <file>icons/Computer-Hardware-Usb-Connector-icon.png</file>
+        <file>icons/user-properties.png</file>
+        <file>icons/chronometer.png</file>
+        <file>icons/applications-development.png</file>
+        <file>icons/view-task.png</file>
+        <file>icons/list-add.png</file>
+        <file>icons/Industry-Rfid-Tag-icon.png</file>
+        <file>icons/task-attention.png</file>
+        <file>icons/task-complete.png</file>
+        <file>icons/text-csv.png</file>
+        <file>icons/arrow-down.png</file>
+        <file>icons/arrow-up.png</file>
+        <file>icons/view-filter.png</file>
+        <file>icons/document-decrypt.png</file>
+        <file>icons/preferences-desktop-cryptography.png</file>
+    </qresource>
+</RCC>

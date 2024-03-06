@@ -1,0 +1,11 @@
+*.user
+*.user*
+build*
+*.o
+debug/
+Makefile*
+object_script*
+ui_*
+rfidbasesettings.ini
+release/
+*.exe

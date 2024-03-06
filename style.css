@@ -1,0 +1,274 @@
+
+QTableView, QListView { 
+	alternate-background-color: #e0e0e0;
+	background: rgba(200, 200, 200, 255);
+}
+
+QTableCornerButton::section, QHeaderView::section {
+	background: rgba(60, 60, 60, 255);
+    color: white;
+    padding-left: 4px;
+    border: 1px solid #6c6c6c;
+ }
+
+ QHeaderView::section:checked
+ {
+     background-color: black;
+ }
+
+QLineEdit, QDoubleSpinBox {
+	background: rgba(200, 200, 200, 255);
+	border: 1px solid gray;
+	border-radius: 2px;
+	min-height: 24px;
+	min-width: 48px;
+	font-size: 14px;
+}
+
+QDateEdit {
+	background: rgba(200, 200, 200, 255);
+	border: 1px solid gray;
+	border-radius: 2px;
+	min-height: 24px;
+	min-width: 48px;
+}
+
+ QComboBox {
+	background: rgba(200, 200, 200, 255);
+	border: 1px solid gray;
+	border-radius: 2px;
+	min-height: 24px;
+	min-width: 48px;
+	font-size: 14px;
+ }
+
+ QComboBox QAbstractItemView {
+	border: 2px solid darkgray;
+    selection-background-color: rgb(40,40,40);
+	selection-color: white;
+    padding-bottom: 0px;
+	min-height: 24px;
+	min-width: 48px;
+	background: rgba(200, 200, 200, 255);
+}
+
+ QToolButton {
+ 	border: 1px solid gray;
+	border-radius: 2px;
+	background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(30, 30, 30, 255), stop:1 rgba(100, 100, 100, 255));
+	color: white;
+	min-height: 30px;
+	min-width: 30px;
+	icon-size: 30px;
+ }
+  
+ QToolButton:checked, QPushButton:checked {
+	background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 #646464, stop:1 rgba(140, 140, 140, 255));
+	border: 2px solid #8ABD5F;
+  }
+  
+ QToolButton:hover, QPushButton:hover {
+	background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(70, 70, 70, 255), stop:1 rgba(140, 140, 140, 255));
+  }
+  
+QToolButton:pressed, QPushButton:pressed {
+	background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(50, 50, 50, 255), stop:1 rgba(150, 150, 150, 255));
+ }
+ 
+ QToolButton:disabled, QPushButton:disabled {
+	background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(100, 100, 100, 255), stop:1 rgba(120, 120, 120, 255));
+	border-style: dashed;
+ }
+ 
+ QMenuBar{
+	background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(40, 40, 40, 255), stop:1 rgba(110, 110, 110, 255));
+	color: white;
+	font-size: 14px;
+ }
+ 
+QMenuBar::item {
+    padding: 4px;
+    background: transparent;
+    border-radius: 2px;
+	min-height: 20px;
+	font-size: 14px;
+ }
+ 
+ QMenuBar::item:selected {
+	background: rgba(30, 30, 30, 255);
+ }
+
+ QMenuBar::item:pressed {
+    background: rgba(50, 50, 50, 255);
+ }
+
+ QMenu {
+	background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(40, 40, 40, 255), stop:1 rgba(110, 110, 110, 255));
+    border: 1px solid black;
+	color: white;
+	font-size: 14px;
+ }
+ 
+ QMenu:selected {
+	background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(30, 30, 30, 255), stop:1 rgba(100, 100, 100, 255));
+    border: 1px solid black;
+	color: white;
+	font-size: 14px;
+ }
+
+QCheckBox , QRadioButton{
+	color: white;
+	font-size: 14px;
+}
+
+QMainWindow, KeyForm, UserForm, UsersWidget, DataBaseSettingsWidget, CameraSettingsWidget, SerialPortSettingsWidget, QMessageBox, WorktimeWidget, TakePhotoWidget , SalesWidget, GroupedEntranceWidget{
+	background: rgba(100, 100, 100, 255);
+	color: white;
+}
+
+LastEntranceWidget {
+	max-width: 400px;
+	min-width: 400px;
+}
+
+FindWidget{
+	max-width: 400px;
+	min-width: 400px;
+}
+
+
+QLabel {
+	color: white;
+	font-size: 14px;
+}
+
+QGroupBox {
+	color: white;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin-top: 10px;
+	padding-top: 10px;
+	font-size: 14px;
+}
+
+QGroupBox #downloadBox{
+	color: white;
+	background: #4C668C;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin-top: 10px;
+	padding-top: 10px;
+	font-size: 14px;
+}
+
+QGroupBox::title {
+     subcontrol-origin: margin;
+     subcontrol-position: top left; /* position at the top center */
+     padding: 4px;
+	 margin-left: 0px;
+	 background: rgba(30, 30, 30, 255);
+	 border: 1px solid black;
+	 border-radius: 2px;
+	 color: white;
+	 font-weight: bold;
+	 font-size: 14px;
+ }
+ 
+QPushButton {
+	border: 1px solid gray;
+	border-radius: 2px;
+	background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(30, 30, 30, 255), stop:1 rgba(100, 100, 100, 255));
+	color: white;
+	min-height: 30px;
+	min-width: 48px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	spacing: 4px;
+	icon-size: 30px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* navigation bar */
+QCalendarWidget QWidget#qt_calendar_navigationbar { 
+	
+	background-color: rgb(40, 40, 40);
+}
+
+QCalendarWidget QToolButton {
+	color: white;
+	icon-size: 16px, 16px;
+	margin: 0px;
+	padding: 0px;
+	background-color: rgb(40, 40, 40);
+	border: 0px;
+}
+
+QCalendarWidget QSpinBox { 
+	color: white; 
+	background-color: rgb(40, 40, 40); 
+	
+	selection-background-color: #8abd5f; 
+	selection-color: black;
+}
+
+ 
+/* header row */
+QCalendarWidget QWidget { alternate-background-color: rgb(128, 128, 128); }
+
+QCalendarWidget QMenu {
+	color: white;
+	background-color: rgb(40, 40, 40);
+}
+
+ QCalendarWidget  QMenu::item {
+    padding-bottom: 0px;
+	min-height: 20px;
+	min-width: 48px;
+    color: white;
+	background-color: rgb(40, 40, 40);
+	margin: 0px;
+	padding: 4px;
+}
+
+QCalendarWidget QMenu::item:selected { /* when user selects item using mouse or keyboard */
+     background-color: #8abd5f;
+	 color: black;
+ }
+
+
+/* normal days */
+QCalendarWidget QAbstractItemView:enabled 
+{
+	color: rgb(180, 180, 180);  
+	background-color: rgba(100, 100, 100, 255);  
+	selection-background-color: #8abd5f; 
+	selection-color: white; 
+}
+ 
+/* days in other months */
+QCalendarWidget QAbstractItemView:disabled { color: rgb(34, 34, 34); }
+
+
+QLabel#countLabel {
+	color: white;
+	font-size: 40px;
+}
+
+QLabel#invLabel {
+	color: red;
+	font-size: 40px;
+}
+
+QLabel #invalidLabel{
+	color: white;
+	color: red;
+}
+
+QLabel#entranceCounterLabel {
+	color: white;
+	font-size: 40px;
+}
+

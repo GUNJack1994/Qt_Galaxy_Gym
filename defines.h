@@ -1,0 +1,18 @@
+#ifndef DEFINES_H
+#define DEFINES_H
+
+#define COLOR_INVALID "#D46A6A"
+#define COLOR_VALID "#8ABD5F"
+
+#define CARNET_NORMAL 1
+#define CARNET_HALF 2
+#define CARNET_LADIES 3
+#define CARNET_FAMILY 4
+#define CARNET_ONEUSE 5
+#define CARNET_OPEN_MAN 6
+#define CARNET_OPEN_WOMAN 7
+#define CARNET_FITENSS_WOMAN 8
+#define CARNET_FITENSS_MAN 9
+#define CARNET_KEY 10
+
+#endif // DEFINES_H

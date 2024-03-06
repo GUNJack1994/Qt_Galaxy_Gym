@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SimulatorRFID</class>
+ <widget class="QWidget" name="SimulatorRFID">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>210</width>
+    <height>41</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Symulator RFID</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="guiIconsResources.qrc">
+    <normaloff>:/icons/Computer-Hardware-Usb-Connector-icon.png</normaloff>:/icons/Computer-Hardware-Usb-Connector-icon.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="1">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>Wyślij</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="text">
+      <string>AABBCCDD11</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="guiIconsResources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
